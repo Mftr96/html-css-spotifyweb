@@ -67,3 +67,38 @@ nav {
 }
 
 /* ----------------------------------------------------------------- */
+
+/* RECENTLY PLAYED STYLE ----------------------------------------- */
+
+.recently-played {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.recently-music{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: 2px solid crimson;
+    width: calc(85% / 6);
+    text-align: center;
+}
+
+.card>img{
+    width: 100%;
+}
+
+/* --------------------------------------------------------------- */
+
+/*  FOR YOU STYLE ------------------------------------------------- */
+
+.for-you{
+    margin-left: 1rem;
+}
+
+.release-row{
+    display: flex;
+    gap: 3rem;
+}
