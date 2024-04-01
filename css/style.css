@@ -102,3 +102,36 @@ nav {
     display: flex;
     gap: 3rem;
 }
+
+/* ---------------------------------------------------------------- -*/
+
+/* POPULAR ARTIST STYLE ----------------------------------------------- */
+.popular-artist{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.artist-row{
+    display: flex;
+    gap: 3rem;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* FOOTER STYLE -------------------------------------------------------- */
+
+footer{
+    border: 2px solid pink;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+}
+
+.upper-center,.bottom-center{
+    display: flex;
+}
