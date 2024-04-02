@@ -20,6 +20,11 @@ p{
     justify-content: space-between;
 }
 
+.menu-left p{
+    border: 1px solid crimson;
+}
+
+
 [alt=logo]{
     width: 50%;
 }
@@ -76,13 +81,13 @@ main{
     background-color: rgb(8, 11, 18);
     display: flex;
     justify-content: end;
-    padding: 1rem;
 }
 
 .upgrade p{
     border: solid rgb(224, 224, 225);
     padding: 1.2rem 1rem;
     border-radius: 50px;
+    font-size: 0.8rem;
 }
 
 /* MUSIC CONTENT STYLE ---------------------------------------- */
@@ -99,9 +104,10 @@ nav {
 }
 
 .music-content{
-    border: 3px solid green;
-    height: 60vh;
+    height: 70vh;
     overflow: scroll;
+    overflow-x: hidden;
+    background-color: rgb(20, 25, 34);
 }
 
 
@@ -117,6 +123,14 @@ nav {
 .recently-music{
     display: flex;
     justify-content: space-between;
+}
+
+.recently-played h2,.recently-played h3{
+    color: white;
+}
+
+.recently-played h2{
+    margin-bottom: 0.5rem;
 }
 
 .card{
@@ -178,6 +192,9 @@ footer i {
     padding: 1rem;
 }
 
+.footer-left{
+    border: 1px solid crimson;
+}
 .footer-left img{
     width: 70%;
 }
@@ -193,7 +210,6 @@ footer i {
 }
 
 .footer-right{
-    border: 1px solid yellowgreen;
     display: flex;
     justify-content: center;
     align-items: center;
