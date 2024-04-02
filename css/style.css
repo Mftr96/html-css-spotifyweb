@@ -12,7 +12,8 @@ p{
 
 /* HEADER LEFT STYLE --------------------------- */
 .header-left{
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0);
+    height: 80vh; 
     width: 15%;
     display: flex;
     flex-direction: column;
@@ -33,17 +34,17 @@ p{
    width: 10%;     
 }
 
-.menu-left{
-    border: 1px solid crimson;
+
+
+.playlist-content p{
+    line-height: 1.8rem;
 }
 
-.playlist{
-    border: 1px solid yellowgreen;
+.playlist p{
+    line-height: 1.5rem;
+ 
 }
 
-.user-left{
-    border: 1px solid blueviolet;
-}
 
 /* ------------------------------------------------------ */
 
@@ -97,6 +98,11 @@ nav {
     width: 60%;
 }
 
+.music-content{
+    border: 3px solid green;
+    height: 60vh;
+    overflow: scroll;
+}
 
 
 /* ----------------------------------------------------------------- */
@@ -156,15 +162,42 @@ nav {
 
 footer{
     border: 2px solid pink;
+    height: 20vh;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+}
+
+footer i {
+    color: white;
+}
+
+.footer-left,.footer-center,.footer-right{
+    display: flex;
+    padding: 1rem;
+}
+
+.footer-left img{
+    width: 70%;
+}
+
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upper-center,.bottom-center{
     display: flex;
     justify-content: space-between;
 }
 
-.footer-left{
+.footer-right{
+    border: 1px solid yellowgreen;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
 }
 
-.upper-center,.bottom-center{
-    display: flex;
-}
