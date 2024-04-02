@@ -5,7 +5,7 @@
 }
 
 p{
-    /* color: white; */
+    color: white;
 }
 
 /* -------------------------------------------- */
@@ -14,6 +14,9 @@ p{
 .header-left{
     background-color: rgb(0, 0, 0); 
     width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 [alt=logo]{
@@ -30,7 +33,26 @@ p{
    width: 10%;     
 }
 
+.menu-left{
+    border: 1px solid crimson;
+}
+
+.playlist{
+    border: 1px solid yellowgreen;
+}
+
+.user-left{
+    border: 1px solid blueviolet;
+}
+
 /* ------------------------------------------------------ */
+
+/* PLAYLIST STYLE ------------------------------------- */
+
+.playlist h3{
+    color: white;
+}
+
 
 /* MAIN STYLE ------------------------------------------ */
 
@@ -47,11 +69,20 @@ main{
 
 /* ------------------------------------------------------------ */
 
+/* UPGRADE STYLE ------------------------------------------- */
 
+.upgrade{
+    background-color: rgb(8, 11, 18);
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
 
-
-
-
+.upgrade p{
+    border: solid rgb(224, 224, 225);
+    padding: 1.2rem 1rem;
+    border-radius: 50px;
+}
 
 /* MUSIC CONTENT STYLE ---------------------------------------- */
 
@@ -63,8 +94,10 @@ nav {
 .nav-options{
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 60%;
 }
+
+
 
 /* ----------------------------------------------------------------- */
 
